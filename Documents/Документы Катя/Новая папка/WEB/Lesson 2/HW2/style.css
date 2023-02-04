@@ -1,0 +1,37 @@
+h1{
+    color: crimson;
+    font-style: italic; 
+}
+    
+h2{
+    color: darkmagenta;
+    font-style: italic;
+}
+.big_text{
+    color: rgb(38, 12, 78);
+    font-size: 22px;
+    font-style: oblique;
+}
+a{
+    font-style: oblique;
+    font-size: 20px;
+}
+a:hover{
+    font-size: 26px;
+}
+html{
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626148482_39-kartinkin-com-p-fon-sirenevii-nezhnii-krasivo-39.jpg);
+}
+#second{
+    margin-top: 20px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text_1{
+    font-size: 20px;
+}
+/* не получилось сделать, чтоб картинка увеличивалась при наведении курсора
+img:hover{
+    width: "600";
+}*/
