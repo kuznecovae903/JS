@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main5.js" defer></script>
+    <title>Document 5</title>
+</head>
+<body>
+    <h1>Задача 5</h1>
+    <p>Функция selectBanners принимает массив баннеров объектов как в примере и число, 
+обозначающее количество баннеров, которое нужно выбрать из массива. 
+Необходимо реализовать функцию так, чтобы функция выбирала переданное количество случайных баннеров
+(баннеры уникальны, не должны повторяться в результате), учитывая их вес (свойство weight в объектах баннеров).
+Чем больший вес имеет баннер, тем больше шансов того что этот баннре должен быть выбран. Если массив баннеров 
+содержит меньше или столько же элементов, сколько было запрошено, то функция должна вернуть все элементы массива.</p>
+<p>``` js</p>
+<p>function selectBanners(banners, count) {
+
+}</p>
+<p> const banners = [
+    {id: 2, weight: 10},
+    {id: 4, weight: 5},
+    {id: 8, weight: 15},
+    {id: 22, weight: 18},
+    {id: 41, weight: 41},
+    {id: 53, weight: 1},
+    {id: 69, weight: 9},
+    ];
+
+    console.log(selectBanners(banners, 3))
+</p>
+</body>
+</html>
